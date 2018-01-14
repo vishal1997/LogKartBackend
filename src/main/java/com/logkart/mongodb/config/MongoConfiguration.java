@@ -15,7 +15,7 @@ import com.mongodb.ServerAddress;
 
 /**
  * MongoDB Configuration
- * @author Vishal
+ * @author Vishal Gupta
  *
  */
 @Configuration

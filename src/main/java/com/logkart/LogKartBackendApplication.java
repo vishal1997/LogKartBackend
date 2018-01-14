@@ -1,4 +1,4 @@
-package com.logkart.application;
+package com.logkart;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,11 +9,14 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.web.context.request.RequestContextListener;
-
+/**
+ * 
+ * @author Vishal Gupta
+ *
+ */
 @SpringBootApplication
 @Configuration
 @EnableWebSecurity
-@ComponentScan(basePackages = "com.logkart")
 public class LogKartBackendApplication extends WebSecurityConfigurerAdapter {
 	
 	@Override

@@ -8,13 +8,13 @@ public class Constants {
 	 *
 	 */
 	public class Database {
-		public static final String DATABASE = "portal";
-		public static final String ADDRESS = "ds115493.mlab.com";
-		public static final int PORT = 15493;
+		public static final String DATABASE = "logkart";
+		public static final String ADDRESS = "ds255347.mlab.com";
+		public static final int PORT = 55347;
 		
 		//Move this to properties file.
-		public static final String USER = "akgupt";
-		public static final String PWD = "akgupt";
+		public static final String USER = "vishalgupta";
+		public static final String PWD = "logkart123";
 	}
 	
 	public class StatusCode {

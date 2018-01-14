@@ -7,6 +7,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
+/**
+ * 
+ * @author Vishal Gupta
+ *
+ */
 @RestController
 @EnableWebMvc
 @RequestMapping("/api/v1/")
@@ -18,5 +23,4 @@ public class LogkartRestController {
 		status.put("User", "LogKart");
 		return status;
 	}
-
 }
