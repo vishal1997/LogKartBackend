@@ -2,9 +2,10 @@ package com.logkart.mongodb.dbmodel;
 
 import java.util.List;
 
+import org.springframework.data.annotation.Id;
+
 import lombok.Builder;
 import lombok.Getter;
-import lombok.Setter;
 
 /**
  * 
@@ -12,10 +13,10 @@ import lombok.Setter;
  *
  */
 @Getter
-@Setter
 @Builder
 public class DbCities {
 
+	@Id
 	private String cityId;
 	private String name;
 	private List<String> pinCode;
